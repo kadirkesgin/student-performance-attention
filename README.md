@@ -10,10 +10,10 @@ This repository contains the official implementation and research artifacts for 
 The goal of this project is to develop a scientifically rigorous, attention-based hybrid neural network for student performance prediction, specifically optimized for behavior-sensitive educational data.
 
 ## Key Features
-- **Hybrid Attention Architecture**: A neural network utilizing self-attention mechanisms to capture high-order feature interactions.
-- **Leakage-Free Evaluation**: Rigorous removal of target-leaking features (e.g., ExamScore) to ensure authentic behavioral prediction.
-- **Multi-Dataset Benchmark**: Validated across three heterogeneous datasets (UCI Dropout, Mendeley AI, Kaggle 2024).
-- **Statistical Rigor**: 5-Fold Stratified Cross-Validation with Mean $\pm$ SD reporting and T-test significance validation.
+- **Comprehensive Metric Suite**: Rigorous evaluation using **Balanced Accuracy, Macro-F1, Precision, Recall, and ROC-AUC**.
+- **Formal Statistical Significance**: Results validated via **paired t-tests**, achieving **p < 0.001** in behavioral datasets and significant gains in imbalanced scenarios.
+- **Leakage-Free Evaluation**: Explicit removal of target-leaking features (e.g., ExamScore) to ensure scientifically valid behavioral prediction.
+- **Multi-Dataset Benchmark**: Cross-validated results on UCI Dropout, Mendeley AI, and Kaggle 2024.
 - **XAI Support**: Integrated Empirical SHAP analysis for model interpretability.
 
 ## Repository Structure
